@@ -1,0 +1,241 @@
+No coding for Exercise 22
+
+# outputs given object to standard output (console) or file
+print()
+
+# single quote - can be used to denote a string
+'
+
+# double quote - can be used to denote a string
+"
+
+# octothorpe - used to begin a comment in Python
+#
+
+# plus - denotes arithmetic addition or string concatenation
++
+
+# minus - denotes arithmetic subtraction
+-
+
+# slash - denotes arithmetic division
+/
+
+# asterisk - denotes arithmetic multiplication or string multiplication
+*
+
+# percent - denotes arithmetic modulus
+%
+
+# less than - used to compare if left operand is less than right operand
+<
+
+# greater than - used to compare if left operand is greater than right operand
+>
+
+# less than equal - used to compare if left operand is less than or equal to right operand
+<=
+
+# greater than equal - used to compare if left operand is greater than or equal to right operand
+>=
+
+# underscore - used to separate words in function and variable names
+_
+
+# equal - left operand is assigned the value of right operand
+=
+
+# comma - used to separate variables/arguments in functions, or batch variable assignments
+,
+
+# period - denotes a float if used with integers, or a function call if used with objects (dot notation)
+.
+
+# equal-equal(?) - used to compare if two operands are equal
+==
+
+# f-strings - used to denote whether the following string needs formatting
+f
+
+# braces - used in conjection with string.Formatter.format() where values from function replace the braces in string object
+#   or used with f-strings to insert code (variables, function calls, etc.)
+{}
+
+# rounds float to nearest integer, or decimal precision
+round()
+
+# boolean value for True
+True
+
+# boolean value for False
+False
+
+# function that formats given string with given arguments
+string.Formatter.format()
+
+# tells print function to end with whitespace and NOT go to a new line
+# default value is set to '\n'
+end=' '
+
+# backslash - used to denote the beginning of escape sequence/special character
+\
+
+# escape sequence for ASCII linefeed
+\n
+
+# triple double-quote - denotes beginning of multi-line string, can be used as f-strings
+"""
+
+# triple single-quote - denotes beginning of multi-line string, can be used as f-strings
+'''
+
+# escape sequence to show single-quote
+\'
+
+# escape sequence to show double-quote
+\"
+
+# escape sequence to show backslash
+\\
+
+# escape sequence for horizontal tab
+\t
+
+# escape sequence for ASCII bell
+\a
+
+# escape sequence for ASCII backspace
+\b
+
+# escape sequence for ASCII formfeed
+\f
+
+# escape sequence for Unicode characters
+\N{name}
+
+# escape sequence for carriage return
+\r
+
+# escape sequence for UTf-8 character encoding
+\uxxxx
+
+# escape sequence for UTF-16 character encoding
+\Uxxxxxxxx
+
+# escape sequence for vertical tab
+\v
+
+# escape sequence for character in octal value
+\ooo
+
+# escape sequence for character in hexdecimal value
+\xhh
+
+# function that takes in input from standard input device (keyboard) and returns it; will print prompt without newline character if given
+input()
+
+# function that casts the given argument into integer object
+int()
+
+# keyword that denotes where to find module
+from
+
+# module that provides information about Python interpreter
+sys
+
+# allows file access to external code defined by module
+import
+
+# list of command line arguments passed to python script
+argv
+
+# function that opens specified file and returns corresponding file object
+# default mode is read-only ('r')
+open()
+
+# function that returns all of file content
+io.???.read()
+
+# function that flushes and closes stream
+io.close()
+
+# function that exits from python interpreter
+quit()
+
+# function that exits from python interpreter
+exit()
+
+# function that reads and returns file content until newline character
+io.readline()
+
+# function that empties file contents
+io.truncate()
+
+# function that writes into file (file must have been opened with write permissions)
+io.???.write()
+
+# function that can change pointer position in file object
+# first parameter can be: 
+#   0 - beginning of file
+#   1 - current position of file
+#   2 - end of file
+# second paramter (optional): offset from the specified location
+io.seek()
+
+# denotes write mode for open(), overwrites existing file or creates new file if not exist
+w
+
+# denotes append mode for open(), places pointer position at end of file
+a
+
+# denotes read mode for open(), places pointer position to beginning of file
+r
+
+# denotes read and write mode for open(), overwrites existing file or creates new file if not exist
+w+
+
+# denotes read and write mode for open(), places pointer position to beginning of file
+r+
+
+# denotes read and append mode for open(), places pointer at end of file, or creates new file if not exist with read and write mode
+a+
+
+# module that allows code to manipulate paths in OS
+os.path
+
+# function that checks if path or file exists
+exists()
+
+# module that allows access to OS information
+os
+
+# function that returns length of object 
+len()
+
+# keyword denoting the beginning of function definition
+def
+
+# denotes start of indented code block
+:
+
+# denotes that number of arguments that will be passed into function is variable
+# will be list of arguments, similar to argv
+*args
+
+# add right operand to left operand and return value to left operand
++=
+
+# subtract right operand from left operand and return value to left operand
+-=
+
+# divide right operand into left operand and return value to left operand
+/=
+
+# multiply right and left operands and return value to left operand
+*=
+
+# perform left operand modulo right operand and returns value to left operand
+%=
+
+# keyword that exits function and gives following value to its caller
+return
