@@ -1,0 +1,3 @@
+The Jupiter trojans, commonly called Trojan asteroids or just Trojans, are a large group of asteroids that share the orbit of the planet Jupiter around the Sun.
+Relative to Jupiter, each Trojan librates around one of Jupiter's two stable Lagrange points, L4, lying 60° ahead of the planet in its orbit, and L5, 60° behind.
+Jupiter trojans are distributed in two elongated, curved regions around these Lagrangian points with an average semi-major axis of about 5.2 AU.
