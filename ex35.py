@@ -5,6 +5,7 @@ def gold_room():
     print('This room is full of gold. How much do you take?')
 
     choice = input('> ')
+
     # bad check: 1a and similar cases cause error
     #if "0" in choice or "1" in choice:
     # better check: isnumeric() guarantees all characters are numeric
